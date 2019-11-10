@@ -1,0 +1,136 @@
+.container {
+    max-width: 1352px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+/*fonts:*/
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+
+/* 1. logo and navigation */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+    height: 70px;
+
+}
+
+nav div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #08A6E4;
+}
+
+.links ul {
+        display: flex;
+}
+
+.links ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 	0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 80px;
+    list-style-type: none;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #A5A5A5;
+    letter-spacing: 3px;
+
+}
+
+.links ul li a:hover {
+    color: #000000;
+    border-bottom: 4px solid #08A6E4;
+    padding: 27px 0;
+}
+
+/* 2. banner and heading */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    background: url("../images/Background.png") no-repeat bottom/contain;
+    padding-top: 150px;
+
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 3.0625rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+header p {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+header button {
+    margin: 20px;
+    background: #08A6E4;
+    box-shadow: 5px 10px 14px #07ACE629;
+    width: 440px;
+    height: 67px;
+    border-radius: 40px;
+    outline: none;
+    cursor: pointer;
+}
+
+header button a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* 3. why us / icons */
+
+
+/* 4. main description / benefits */
+
+
+
+/* 5. prices  */
+
+
+
+/* 6. questions / contact */
+
+
+
+/* 7. footer */

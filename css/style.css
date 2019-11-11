@@ -31,7 +31,7 @@ nav div.container {
 
 }
 
-.container h2 {
+nav .container h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 2rem;
@@ -127,6 +127,8 @@ header button a {
     justify-content: center;
     font-family: 'Raleway', sans-serif;
     height: 500px;
+    width: 100%;
+    border-bottom: 1px solid #E8E9ED;
 }
 
 .why-us h2 {
@@ -135,6 +137,7 @@ header button a {
     color: black;
     font-size: 2.25rem;
     padding-bottom: 20px;
+    font-weight: 400;
 }
 
 .icons {
@@ -192,13 +195,281 @@ article {
     color: #A5A5A5;
 }
 
-
-
 /* 4. main description / benefits */
 
+main {
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
 
+main .container > article {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1124px;
+    height: 370px;
+    margin: 50px 100px;
+    border-radius: 5px;
+    border: 1px solid #E8E9ED;
+}
+
+main article .benefits-description {
+    width: 416px;
+    padding-bottom: 50px;
+}
+
+main article h2 {
+    font-size: 2.25rem;
+    padding-bottom: 30px;
+    font-family: Raleway, sans-serif;
+    width: 260px;
+    font-weight: 400;
+}
+
+main article p {
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+main .container > article:nth-child(1)::after {
+    content: "";
+    padding-bottom: 50px;
+    border-bottom: 4px solid #FB3B64;
+    width: 328px;
+    position: absolute;
+    left: 4rem;
+    bottom: 3.75rem;
+}
+
+main .container article:nth-of-type(1) img {
+    height: 219px;
+    width: 386px;
+    position: relative;
+    z-index: 2;
+}
+
+main .container article:nth-of-type(2) img {
+    height: 328px;
+    width: 426px;
+    position: relative;
+    z-index: 2;
+}
+
+main .divided img {
+    height: 207px;
+    width: 295px;
+    position: relative;;
+}
+
+main .container article:nth-of-type(2) .benefits-description::after {
+    content: "";
+    padding-bottom: 50px;
+    border-bottom: 4px solid #08A6E4;
+    width: 327px;
+    position: absolute;
+    right: 14rem;
+    bottom: 3.125rem;
+}
+
+main article:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding-left: 10px;
+}
+
+main article:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+}
+
+article:nth-child(3) {
+    width: 60%;
+}
+article:nth-child(4){
+    width: 40%;
+    height: 10px;
+}
+
+main .container > article:nth-of-type(1) .benefits-image::after {
+    content: "";
+    position: absolute;
+    right: 130px;
+    top: 40px;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    border-radius: 41px;
+    background: #FB3B64;
+    width: 180px;
+    height: 180px;
+}
+
+main .container > article:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    left: 120px;
+    bottom: 40px;
+    border-radius: 50%;
+    background: #08A6E4;
+    width: 320px;
+    height: 320px;
+}
+
+main section .container .divided {
+    background-color: #F7F7F7;
+    height: 370px;
+}
+
+.divided .benefits-description {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #E8E9ED;
+    margin-left: 90px;
+    margin-right: 50px;
+    padding: 20px 50px;
+    border-radius: 5px;
+    width: 623px;
+    margin-bottom: 80px;
+}
+
+.divided .benefits-description h2 {
+    width: 370px;
+    padding-top: 50px;
+}
+
+.divided .benefits-description p {
+    position: relative;
+}
+
+section.divided article.container .benefits-description::after {
+    content: "";
+    width: 20.4375rem;
+    bottom: 40px;
+    left: 150px;
+    position: absolute;
+    border-bottom: 4px solid #55DF84;
+    margin-bottom: 100px;
+}
+
+.divided .benefits-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #55DFB4;
+    margin-left: 10px;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    width: 440px;
+    height: 370px;
+}
 
 /* 5. prices  */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.contact section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h2 {
+    padding-bottom: 50px;
+    padding-right: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 2.25rem;
+    }
+
+
+.contact h3 {
+    font-size: 2.875rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.contact div:first-of-type h3 {
+    color: #FB3B64;
+    padding-bottom: 80px;
+}
+
+.contact div:nth-of-type(2) h3 {
+    color: #07ACE6;
+}
+
+.contact div:nth-of-type(3) h3 {
+    color: #55DFB4;
+}
+
+.contact h4 {
+    font-size: 1.3125rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.contact h5 {
+    padding-bottom: 80px;
+    font-size: 0.75rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+
+}
+
+.contact div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.contact div.small {
+    width: 372px;
+    height: 461px;
+}
+
+.contact div:first-of-type {
+    border: 1px solid #FB3B64;
+    border-radius: 18px;
+}
+
+.contact div:last-of-type {
+    border: 1px solid #55DFB4;
+    border-radius: 18px;
+}
+
+.contact div.large {
+    width: 405px;
+    height: 500px;
+    box-shadow: 5px 10px 27px #07ACE629;
+    border: 1px solid #07ACE6;
+    border-radius: 18px;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact div li {
+    padding-bottom: 20px;
+    font-size: 	0.875rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
 
 
 

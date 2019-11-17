@@ -370,7 +370,7 @@ section.divided article.container .benefits-description::after {
 
 /* 5. prices  */
 
-.contact {
+.price {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -378,80 +378,84 @@ section.divided article.container .benefits-description::after {
     margin: 80px 0;
 }
 
-.contact section {
+.price .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1266px;
 }
 
-.contact h2 {
+.price h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
     padding-bottom: 50px;
-    padding-right: 50px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 2.25rem;
     }
 
 
-.contact h3 {
+.price h3 {
     font-size: 2.875rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     padding-bottom: 20px;
 }
 
-.contact div:first-of-type h3 {
+.price div:first-of-type h3 {
     color: #FB3B64;
     padding-bottom: 80px;
 }
 
-.contact div:nth-of-type(2) h3 {
+.price div:nth-of-type(2) h3 {
     color: #07ACE6;
 }
 
-.contact div:nth-of-type(3) h3 {
+.price div:nth-of-type(3) h3 {
     color: #55DFB4;
 }
 
-.contact h4 {
+.price h4 {
     font-size: 1.3125rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     padding-bottom: 20px;
 }
 
-.contact h5 {
-    padding-bottom: 80px;
+.price h5 {
+    padding-bottom: 50px;
     font-size: 0.75rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 
 }
 
-.contact div {
+.price div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 70px;
+    margin: 0 40px;
 }
 
-.contact div.small {
+.price div.small {
     width: 372px;
     height: 461px;
 }
 
-.contact div:first-of-type {
+.price div:first-of-type {
     border: 1px solid #FB3B64;
     border-radius: 18px;
 }
 
-.contact div:last-of-type {
+.price div:last-of-type {
     border: 1px solid #55DFB4;
     border-radius: 18px;
 }
 
-.contact div.large {
+.price div.large {
     width: 405px;
     height: 500px;
     box-shadow: 5px 10px 27px #07ACE629;
@@ -459,22 +463,59 @@ section.divided article.container .benefits-description::after {
     border-radius: 18px;
 }
 
-.contact ul {
+.price ul {
     list-style-type: none;
 }
 
-.contact div li {
+.price div li {
     padding-bottom: 20px;
     font-size: 	0.875rem;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
+.checkmark, .cross {
+    width: 11px;
+    height: 11px;
+    margin-right: 10px;
+}
 
+.begin {
+
+    width: 160px;
+    height: 50px;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 23px;
+    align-self: center;
+    position: absolute;
+
+}
+
+.begin a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.button_basic {
+    background: #FB3B64;
+    margin-top: 20px;
+}
+
+.button_professional {
+    background-color: #07ACE6;
+    margin-top: 250px;
+}
+
+.button_premium {
+    margin-top: 230px;
+    background: #55DFB4;
+}
 
 
 /* 6. questions / contact */
-
 
 
 /* 7. footer */

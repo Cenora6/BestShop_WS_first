@@ -5,14 +5,13 @@
 
 }
 
-/*fonts:*/
-/*font-family: 'Raleway', sans-serif;*/
-/*font-family: 'Open Sans', sans-serif;*/
-
 /* 1. logo and navigation */
 
-nav {
+.flex_box {
     display: flex;
+}
+
+nav {
     justify-content: center;
     align-items: center;
     background: #FFFFFF 0 0 no-repeat padding-box;
@@ -21,11 +20,11 @@ nav {
     z-index: 200;
     width: 100%;
     height: 70px;
+    padding-top: 15px;
 
 }
 
 nav div.container {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 
@@ -36,10 +35,6 @@ nav .container h2 {
     font-weight: 300;
     font-size: 2rem;
     color: #08A6E4;
-}
-
-.links ul {
-        display: flex;
 }
 
 .links ul li {
@@ -67,7 +62,6 @@ nav .container h2 {
 /* 2. banner and heading */
 
 header {
-    display: flex;
     flex-direction: column;
     align-items: center;
     height: 800px;
@@ -77,7 +71,6 @@ header {
 }
 
 header .container {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -121,7 +114,6 @@ header button a {
 /* 3. why us / icons */
 
 .why-us {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -132,8 +124,6 @@ header button a {
 }
 
 .why-us h2 {
-    display: flex;
-    justify-content: center;
     color: black;
     font-size: 2.25rem;
     padding-bottom: 20px;
@@ -141,7 +131,6 @@ header button a {
 }
 
 .icons {
-    display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
@@ -199,7 +188,6 @@ article {
 
 main {
     background-color: #F7F7F7;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
@@ -371,26 +359,19 @@ section.divided article.container .benefits-description::after {
 /* 5. prices  */
 
 .price {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 80px 0;
 }
 
 .price .container {
-    display: flex;
     justify-content: center;
     align-items: center;
-    width: 1266px;
+    width: 100%;
 }
 
 .price h2 {
-    display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 0;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 2.25rem;
@@ -401,12 +382,11 @@ section.divided article.container .benefits-description::after {
     font-size: 2.875rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    padding-bottom: 20px;
 }
 
 .price div:first-of-type h3 {
     color: #FB3B64;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 
 .price div:nth-of-type(2) h3 {
@@ -429,11 +409,9 @@ section.divided article.container .benefits-description::after {
     font-size: 0.75rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-
 }
 
 .price div {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -443,16 +421,16 @@ section.divided article.container .benefits-description::after {
 .price div.small {
     width: 372px;
     height: 461px;
+
+    border-radius: 18px;
 }
 
 .price div:first-of-type {
     border: 1px solid #FB3B64;
-    border-radius: 18px;
 }
 
 .price div:last-of-type {
     border: 1px solid #55DFB4;
-    border-radius: 18px;
 }
 
 .price div.large {
@@ -467,7 +445,7 @@ section.divided article.container .benefits-description::after {
     list-style-type: none;
 }
 
-.price div li {
+.price li {
     padding-bottom: 20px;
     font-size: 	0.875rem;
     font-family: 'Open Sans', sans-serif;
@@ -481,14 +459,12 @@ section.divided article.container .benefits-description::after {
 }
 
 .begin {
-
     width: 160px;
     height: 50px;
     box-shadow: 5px 10px 14px #07ACE629;
     border-radius: 23px;
     align-self: center;
     position: absolute;
-
 }
 
 .begin a {
@@ -518,14 +494,12 @@ section.divided article.container .benefits-description::after {
 /* 6. questions / contact */
 
 .contact .container {
-    display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 50px;
 }
 
 .space {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -560,7 +534,6 @@ section.divided article.container .benefits-description::after {
 
 
 .photo-icons {
-    display: flex;
     font-family: "Open Sans", sans-serif;
     color: #A5A5A5;
     padding-bottom: 350px;
@@ -572,6 +545,7 @@ section.divided article.container .benefits-description::after {
 
 .mail-image img {
     margin-right: 20px;
+    vertical-align: middle;
 }
 
 .phone-image {
@@ -580,10 +554,10 @@ section.divided article.container .benefits-description::after {
 
 .photo-icons img {
     margin-right: 20px;
+    vertical-align: middle;
 }
 
 .contact-form {
-    display: flex;
     flex-direction: column;
     font-family: "Open Sans", sans-serif;
     font-size: 0.7rem;
@@ -595,7 +569,6 @@ section.divided article.container .benefits-description::after {
 }
 
 .contact-form label {
-    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding-bottom: 30px;
@@ -605,14 +578,9 @@ section.divided article.container .benefits-description::after {
     margin-top: 40px;
 }
 
-.checkbox {
-    display: flex;
-}
-
 .checkbox-text {
     font-size: 0.75rem;
-    width: 405px;
-    height: 108px;
+    width: 90%;
     text-align: left;
     font-family: "Raleway", sans-serif;
     color: #707070;
@@ -653,7 +621,7 @@ input[type="checkbox"]:checked::after {
     color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 230px;
 }
 
@@ -661,7 +629,6 @@ input[type="text"] {
     border-top-style: none;
     border-right-style: none;
     border-left-style: none;
-
     border-bottom-color: #707070;
     border-bottom-width: 1px;
 }
@@ -669,16 +636,17 @@ input[type="text"] {
 /* 7. footer */
 
 footer {
-    width: 100%;
     height: 89px;
     background-color: #F7F7F7;
     box-shadow: 0 5px 40px #00000029;
-    position: absolute;
+    padding: 10px 0;
+
 }
 
 footer .container {
-    display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
 }
 
 footer h2 {
@@ -687,27 +655,21 @@ footer h2 {
     font-weight: 300;
     letter-spacing: 0;
     color: #08A6E4;
-    float: left;
-    padding-top: 20px;
+}
+
+footer .left-box {
+    flex-direction: column;
     padding-bottom: 10px;
 }
 
-footer .left {
-    display: flex;
-    flex-direction: column;
-}
-
 footer p {
-    text-align: left;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #A5A5A5;
     font-size: 0.6875rem;
 }
 
-footer .right img {
-    float: right;
+footer .right-box img {
     align-items: center;
-    padding-left: 20px;
-    padding-top: 10px;
+    margin: 0 20px 20px 0;
 }

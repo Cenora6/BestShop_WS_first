@@ -477,17 +477,20 @@ main .divided .benefits-image {
 
 .button_basic {
     background: #FB3B64;
-    margin-top: 0.9375rem;
+    margin-top: 14.5rem;
+    cursor: pointer;
 }
 
 .button_professional {
     background-color: #07ACE6;
     margin-top: 15.63rem;
+    cursor: pointer;
 }
 
 .button_premium {
     margin-top: 14.06rem;
     background: #55DFB4;
+    cursor: pointer;
 }
 
 

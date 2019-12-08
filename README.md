@@ -1,4 +1,4 @@
-# BestShop_WS_first
+# BestShop WorkShop
 
 ## Used: 
 - HTML

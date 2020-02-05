@@ -1,5 +1,8 @@
 # BestShop WorkShop
 
+## Description:
+An example website of an online shop made using basic technologies.
+
 ## Used: 
 - HTML
 - CSS

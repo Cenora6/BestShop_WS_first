@@ -1,12 +1,19 @@
 # BestShop WorkShop
 
 ## Description:
-An example website of an online shop made using basic technologies.
+BestShop website template (RWD)
 
-## Used: 
-- HTML
-- CSS
-- JavaScript
+## Live Demo
+[BestShop WS - Live Preview](https://cenora6.github.io/BestShop_WS_first/)
 
-## Preview:
-Check the preview of the website here: *https://cenora6.github.io/BestShop_WS_first/*
+## Technologies and additional dependencies:
+
+| Tool | Description |
+| :-------------:|--------------|
+| HTML5 | A markup language used for structuring, and presenting content on the World Wide Web. |
+| CSS | A simple mechanism for adding style to Web documents. |
+| Vanilla JavaScript | Pure JavaScript. |
+
+## Installation:
+-  ```git clone https://github.com/Cenora6/BestShop_WS_first.git``` to clone the repository and view the website in the browser
+
